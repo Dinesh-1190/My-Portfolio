@@ -9,7 +9,9 @@
    ───────────────────────────────────────────────────────────── */
 :root {
   /* Colors */
-  --bg:          #070809;
+  --bg:         radial-gradient(circle at 10% 20%, #102c7b 0%, transparent 40%),
+              radial-gradient(circle at 90% 80%, #7c3aed 0%, transparent 40%),
+              #020617;
   --bg-card:     rgba(16, 19, 24, 0.75);
   --accent:      #66FCF1;
   --accent-10:   rgba(102, 252, 241, 0.10);
